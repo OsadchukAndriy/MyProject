@@ -32,23 +32,7 @@ CREATE TABLE sys.periodicals
     description VARCHAR(450) NOT NULL
 
 );
-insert into sys.periodicals (name, price, type, description) values('Natural Geographic','15','Nature','About nature, animals and exploring wildlife');
-insert into sys.periodicals (name, price, type, description) values('Around the World','8','Nature','About life in jungle and underwater life');
-insert into sys.periodicals (name, price, type, description) values('Big Cats','17','Nature','About big cats likes lions, leopards, clouded leopards and other cats');
-insert into sys.periodicals (name, price, type, description) values('Animal Planet','15','Nature','About wild animals');
-insert into sys.periodicals (name, price, type, description) values('Beautiful mountains and Waterfalls','13','Nature','About wild and the most beautiful views in our planet');
-
-insert into sys.periodicals (name, price, type, description) values('Soccer','7','Sport','About World Cup and UEFA Champions Legue');
-insert into sys.periodicals (name, price, type, description) values('Judo','9','Sport','About judo competitions');
-insert into sys.periodicals (name, price, type, description) values('Running','5','Sport','About sprints and marathons');
-insert into sys.periodicals (name, price, type, description) values('Big Water','9','Sport','About swimming');
-insert into sys.periodicals (name, price, type, description) values('The most strange game','3','Sport','About curling');
-
-insert into sys.periodicals (name, price, type, description) values('Adventures','10','Travels','About new people and countries');
-insert into sys.periodicals (name, price, type, description) values('Interesting Adventures','12','Travels','About interesting travelings');
-insert into sys.periodicals (name, price, type, description) values('Traveling','11','Travels','About  trips without money');
-insert into sys.periodicals (name, price, type, description) values('Hikes','12','Travels','About wild travels');
-insert into sys.periodicals (name, price, type, description) values('Travelings and freedom','10','Travels','About all kinds of travels');
+insert into sys.periodicals (name, price, type, description) values('The New York Times','15','Daily newspaper','American daily newspaper based in New York City with a worldwide readership');
 
 
 #################CREATE ORDER
