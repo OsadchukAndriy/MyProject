@@ -51,7 +51,7 @@
         <th></th>
         <c:forEach items="${periodicalsAdminList}" var="magazine">
             <tr>
-                <td><img src="images/magaz.png" height="54" width="58"/>
+                <td><img src="images/magazines.jpeg" height="54" width="58"/>
                 </td>
                 <td>${magazine.id}</td>
                 <td>${magazine.name}</td>

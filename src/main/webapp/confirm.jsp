@@ -19,19 +19,29 @@
 <body>
 
 <div align="right">
-    <form  action="Logout"><input type="submit" value="Logout"></form>
+    <form action="Logout"><input type="submit" value="Logout"></form>
 </div>
 <div align="right"><a href="ProfilServlet">To my profil</a></div>
 
 <p>
-<div align="left"><img src="images/ordernow.PNG" height="60"></div>
+<div align="center"><img src="images/ordernow.PNG" height="60"></div>
 <br>
 
-<p style="color:blue;"><h6>Magazine title: </h6></u><h1>${nameConfirm}</h1></p>
-<u><h6>Theme:  </h6></u><h1>${typeConfirm}</h1>
-<u><h6>Description:  </h6></u><h1>${descriptionConfirm}</h1>
-<div align="center"><u><h2>Price ONLY:  </h2></u><h1>${priceConfirm}</h1>
-    <a href="ThankYouServlet"><img src="images/v.png" height="50" ></a>
+<p style="color:blue;"><h1>Magazine title: </h1></u><h1>${nameConfirm}</h1></p>
+
+<u><h1>Theme: </h1></u>
+
+<h2>${typeConfirm}</h2>
+
+<u><h1>Description: </h1></u>
+
+<h2>${descriptionConfirm}</h2>
+
+<div align="center"><u><h2>Price: </h2></u>
+
+    <h1>${priceConfirm}</h1>
+
+    <a href="ThankYouServlet"><img src="images/v.png" height="50"></a>
 </div>
 
 </body>

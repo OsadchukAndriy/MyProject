@@ -22,8 +22,6 @@ public class LoginServlet extends HttpServlet {
         if (username != null) {
             request.setAttribute("un", username);
         }
-
-        String sss = "\u041a\u0430\u0442\u0430\u043b\u043e\u0433";
         String lang = request.getParameter("lan");
         request.getSession().setAttribute("lang", lang);
         response.sendRedirect("login.jsp");

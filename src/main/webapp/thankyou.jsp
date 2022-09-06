@@ -24,6 +24,6 @@
 <div align="right"><a href="ProfilServlet"> To my profil</a></div>
 <div align="left"><a href="PeriodicalServlet"><h2> To catalog</h2></a></div>
 
-<div align="center"><img src="images/thankyou.PNG" height="300"></div>
+<div align="center"><img src="images/thanks.jpeg" height="300"></div>
 </body>
 </html>

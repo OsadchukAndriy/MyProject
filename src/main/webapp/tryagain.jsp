@@ -10,10 +10,28 @@
 <head>
     <title>Error</title>
     <style>
+        h1{
+            background: white;
+            color: black;
+            padding: 2px;
+            display: inline-block;
+            border-radius: 10%;
+        }
         body {
             background-image: url('stile/images/bg-01.jpg');
         }
     </style>
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="stile/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="stile/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="stile/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <link rel="stylesheet" type="text/css" href="stile/vendor/animate/animate.css">
+    <link rel="stylesheet" type="text/css" href="stile/vendor/css-hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" type="text/css" href="stile/vendor/animsition/css/animsition.min.css">
+    <link rel="stylesheet" type="text/css" href="stile/vendor/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="stile/vendor/daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" type="text/css" href="stile/css/util.css">
+    <link rel="stylesheet" type="text/css" href="stile/css/main.css">
 </head>
 <body>
 
@@ -23,17 +41,30 @@
     <br>
     <strong><h1>You put incorrect password or login</h1></strong>
     <br>
-    <p><img src="http://i.stack.imgur.com/SBv4T.gif" alt="this slowpoke moves"  width="250" /></p>
-    <br>
-
     <br><br>
-    <p>TRY AGAIN!</p>
+    <p><h1 color="white">TRY AGAIN!</h1></p>
     <hr>
 
-    <P><a href="login.jsp">SIGH IN</a></P>
-    <p><h3>or</h3></p>
-    <P><a href="registration.jsp">SIGH UP</a></P>
 
+
+
+    <div align="center">
+    <P><a href="login.jsp">
+        <button class="login100-form-btn">
+        SIGH IN
+        </button>
+    </a></P>
+    </div>
+
+    <p><h3>or</h3></p>
+
+    <div align="center">
+    <P><a href="registration.jsp">
+        <button class="login100-form-btn">
+        SIGH UP
+        </button>
+    </a></P>
+    </div>
 
 </div>
 </body>

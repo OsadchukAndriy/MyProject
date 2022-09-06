@@ -55,10 +55,6 @@
 </div>
 <h1><center> <fmt:message key="helloAdmin.HiAdmin"/></center></h1>
 
-<%--<div class="container-login100-form-btn m-t-32">--%>
-<%--    <button class="login100-form-btn"><fmt:message key="label.button"/>--%>
-<%--    </button>--%>
-<%--</div>--%>
 
 <div class="container-login100-form-btn m-t-32"
      align="center"
