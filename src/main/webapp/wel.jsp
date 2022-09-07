@@ -13,13 +13,6 @@
 
 </head>
 <body>
-<!-- TIPS:
-1. The carousel shouldn't be in any other div, like for example div with class container.
-2. You can align image position in classes bg1, bg2, bg3 using css background-position.
-http://arturssmirnovs.com/blog/bootstrap-carousel-100-height-and-width/
--->
-
-<!-- Carousel 100% Fullscreen -->
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>

@@ -13,7 +13,7 @@ public class ConnectionPool {
     private static final Logger log = Logger.getLogger(ConnectionPool.class);
 
     private ConnectionPool(){
-        //private constructor ???
+        //private???
     }
 
     private static ConnectionPool instance = null;

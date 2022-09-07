@@ -15,9 +15,7 @@ import java.util.List;
 public class AdminPeriodicalsServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        System.out.println(" i am AdminPeriodicalsServlet");
         List<Periodical> periodicalsAdminList = AdminPeriodicalsDao.getPeriodicals();
-
         request.getSession().setAttribute("periodicalsAdminList", periodicalsAdminList);
         System.out.println("periodicalsAdminList:  " + periodicalsAdminList);
         response.sendRedirect("adminPeriodicals.jsp");

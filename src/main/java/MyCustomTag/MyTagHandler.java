@@ -1,4 +1,4 @@
-package CustomTag;
+package MyCustomTag;
 
 import javax.servlet.jsp.JspException;
 import javax.servlet.jsp.JspWriter;
@@ -9,13 +9,13 @@ import java.util.GregorianCalendar;
 
 public class MyTagHandler extends TagSupport{
     public int doStartTag() throws JspException{
-        JspWriter out=pageContext.getOut();//returns the instance of JspWriter
+        JspWriter out=pageContext.getOut();//return JspWriter
         try{
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy MM dd HH:mm");
             Calendar calendar = new GregorianCalendar();
             out.print(sdf.format(calendar.getTime()));
-            // out.print(Calendar.getInstance().getTime());//printing date and time using JspWriter
         }catch(Exception e){System.out.println(e);}
-        return SKIP_BODY;//will not evaluate the body content of the tag
+        return SKIP_BODY;
+        //will not evaluate the body content of the tag
     }
 }
